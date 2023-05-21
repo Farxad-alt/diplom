@@ -1,0 +1,284 @@
+.page {
+}
+.container {
+}
+.brand {
+	padding-top: 80px;
+
+	&__img {
+		@media (max-width: 855px) {
+			margin: 0 auto 30px;
+		}
+	}
+
+	&__blok {
+		display: flex;
+		@media (max-width: 855px) {
+			justify-content: center;
+		}
+	}
+
+	&__blok-text {
+		padding-right: 10px;
+		&:last-child {
+			a.active {
+				color: #6e9c9f;
+			}
+			padding: 0 10px;
+		}
+	}
+
+	&__items {
+		max-width: 542px;
+		// width: calc(542px + 85 * ((100vw - 320px) / 1600));
+		align-self: center;
+		padding: 0 30px;
+	}
+
+	&__item-title {
+		margin-bottom: 28px;
+		font-size: 25px;
+		line-height: 35px/25px * 100%;
+	}
+
+	&__item-text {
+		line-height: 140%;
+		letter-spacing: 0.02em;
+		font-size: calc(15px + 2 * (100vw / 1100));
+		&:nth-last-child(2) {
+			margin: 28px 0;
+		}
+	}
+
+	&__btn {
+		width: 260px;
+		margin: 0 auto;
+		margin-top: 130px;
+		-webkit-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+		padding: 22px 30px;
+		border: 1px solid #6e9c9f;
+		background-color: #fff;
+		color: #6e9c9f;
+		font-size: 17px;
+		letter-spacing: 2px;
+		align-items: center;
+		text-align: center;
+		&:hover {
+			background-color: #509498;
+			color: #fff;
+		}
+	}
+
+	&__secondary {
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+.brand-title {
+	padding: 100px 0 30px;
+	@media (max-width: 830px) {
+		text-align: center;
+	}
+}
+.active {
+}
+.brand-container {
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		@media (max-width: 855px) {
+			flex-direction: column;
+		}
+	}
+	&__content:nth-of-type(2) {
+		margin: 76px 0;
+	}
+}
+@media (max-width: 855px) {
+	.one {
+		order: 1;
+	}
+	.two {
+		order: 2;
+	}
+}
+
+.contact {
+	&__blok {
+		display: flex;
+		@media (max-width: 830px) {
+			justify-content: center;
+		}
+	}
+}
+
+&__blok-text {
+	padding-right: 10px;
+	&:last-child {
+		a.active {
+			color: #6e9c9f;
+		}
+		padding: 0 10px;
+		}
+}
+.container {
+}
+.contact-title {
+	padding: 100px 0 30px ;
+	@media (max-width: 830px) {
+		text-align: center;
+	}
+}
+.active {
+}
+.map-frame {
+	padding: 80px 15px 0;
+}
+.contact-contacts {
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 130px 0 62px;
+	@media (max-width: 800px) {
+		gap: 40px;
+		justify-content: left;
+	
+	}
+	@media (max-width: 387px) {
+		
+	
+	}
+
+	&__forms{
+		
+	}
+	&__wrapper-tell {
+	}
+
+	&__title {
+		
+	}
+
+	&__number {
+		margin-right: 98px;
+		@media (max-width: 800px) {
+			margin-right: 0px;
+		}
+	}
+
+	&__wrapper-email {
+		margin-right: 98px;
+		@media (max-width: 800px) {
+			margin-right: 0px;
+		}
+	}
+
+	&__email {
+		margin-bottom: 19px;
+		@media (max-width: 800px) {
+			margin-right: 0px;
+		}
+	}
+
+	&__wrapper-address {
+	}
+
+	&__address {
+	}
+}
+
+.order__forms {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.form {
+	padding: 0;
+	margin-top: 62px;
+	// margin-left: 27em;
+	&__message {
+	
+	}
+
+	&__text {
+		color: #868686;
+		padding: 0 0 50px 15px;
+	}
+
+}
+
+.form INPUT {
+	// background: #F8F8F8;
+}
+
+.form__field {
+	max-width: 350px;
+	color: #3333338e;
+	padding-left: 10px;
+	border-bottom: 1px solid #333333;
+	padding-bottom: 14px;
+	line-height: 118.75%;
+	
+	
+}
+
+.form__field:not(:last-child){
+	margin-bottom: 50px;
+  }
+.form__btn {
+	margin-top: 35px;
+	padding: 22px 50px;
+		border: 1px solid #6e9c9f;
+		background-color: #fff;
+		color: #6e9c9f;
+		letter-spacing: 2px;
+		align-items: center;
+		text-align: center;
+		line-height: 138.9%;
+		letter-spacing: 0.02em;
+		&:hover {
+			background-color: #509498;
+			color: #fff;
+		}
+
+}
+
+.checkbox {
+	margin-top: 12px;
+}
+
+.checkbox__label {
+	padding-left: 5px;
+	font-size: 12px;
+	line-height: 125%;
+	letter-spacing: 1.5%;
+}
+
+.checkbox__label {
+	font-size: 12px;
+	line-height: 140%;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	cursor: pointer;
+}
+
+.checkbox__label a {
+	color: #3333338e;
+}
+
+textarea{
+	border: none;
+	max-width: 350px;
+	width:100%; 
+	border-bottom: 1px solid #333;
+  }
+  
