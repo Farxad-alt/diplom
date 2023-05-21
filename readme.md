@@ -1,1 +1,1 @@
-# www.diplom.ru
+# http://womazing.portfori.ru/
